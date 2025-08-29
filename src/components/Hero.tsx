@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Professional Photo */}
-          <Avatar className="w-32 h-32 mx-auto mb-8 shadow-glow rounded-xl">
+          <Avatar className="w-64 h-64 mx-auto mb-8 shadow-glow rounded-xl">
             <AvatarImage src="/lovable-uploads/b761de1f-2f08-45a9-8634-1c367ad318bc.png" alt="Bilal Habbab - Professional headshot" className="object-cover rounded-xl" />
             <AvatarFallback className="bg-gradient-primary text-primary-foreground text-4xl font-bold rounded-xl">BH</AvatarFallback>
           </Avatar>
