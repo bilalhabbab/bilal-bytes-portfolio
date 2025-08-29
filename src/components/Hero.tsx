@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 
 const Hero = () => {
@@ -6,10 +7,11 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-hero relative overflow-hidden">
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Photo Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-8 bg-gradient-primary rounded-full shadow-glow flex items-center justify-center text-primary-foreground text-4xl font-bold">
-            BH
-          </div>
+          {/* Professional Photo */}
+          <Avatar className="w-32 h-32 mx-auto mb-8 shadow-glow">
+            <AvatarImage src="/lovable-uploads/b761de1f-2f08-45a9-8634-1c367ad318bc.png" alt="Bilal Habbab - Professional headshot" />
+            <AvatarFallback className="bg-gradient-primary text-primary-foreground text-4xl font-bold">BH</AvatarFallback>
+          </Avatar>
           
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
