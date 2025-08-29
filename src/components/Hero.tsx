@@ -4,25 +4,25 @@ import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-hero relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-hero relative overflow-hidden pt-16">
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Professional Photo */}
-          <Avatar className="w-64 h-64 mx-auto mb-8 shadow-glow rounded-xl">
+          <Avatar className="w-48 h-48 md:w-64 md:h-64 mx-auto mb-6 md:mb-8 shadow-glow rounded-xl">
             <AvatarImage src="/lovable-uploads/b761de1f-2f08-45a9-8634-1c367ad318bc.png" alt="Bilal Habbab - Professional headshot" className="object-cover rounded-xl" />
-            <AvatarFallback className="bg-gradient-primary text-primary-foreground text-4xl font-bold rounded-xl">BH</AvatarFallback>
+            <AvatarFallback className="bg-gradient-primary text-primary-foreground text-3xl md:text-4xl font-bold rounded-xl">BH</AvatarFallback>
           </Avatar>
           
           {/* Main Content */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Bilal Habbab
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4">
+          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-3 md:mb-4">
             Software Engineer & Computer Science Student
           </p>
           
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto">
             Building innovative solutions with AI, full-stack development, and automation. 
             Currently pursuing Computer Science at Toronto Metropolitan University.
           </p>
