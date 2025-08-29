@@ -38,7 +38,7 @@ const About = () => {
                 <div className="space-y-2">
                   <p className="font-semibold">Bachelor of Science (Honours) - Computer Science (Co-op)</p>
                   <p className="text-muted-foreground">Expected: April 2027</p>
-                  <p className="text-muted-foreground">cGPA: 3.5</p>
+                  <p className="text-muted-foreground">GPA: 3.5</p>
                 </div>
                 
                 <div className="mt-4 pt-4 border-t border-border">
