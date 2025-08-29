@@ -68,11 +68,7 @@ const Projects = () => {
                       </div>
                     </div>
                     
-                    {project.featured && (
-                      <Badge className="bg-gradient-primary text-primary-foreground border-0">
-                        Featured
-                      </Badge>
-                    )}
+                    
                   </div>
 
                   {/* Description */}
