@@ -29,11 +29,27 @@ const Hero = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button size="lg" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
+            <Button 
+              size="lg" 
+              className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
+              onClick={() => {
+                const element = document.getElementById('contact');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
               <Mail className="mr-2 h-4 w-4" />
               Contact Me
             </Button>
-            <Button variant="outline" size="lg" className="hover:bg-primary/5 transition-all duration-300">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="hover:bg-primary/5 transition-all duration-300"
+              onClick={() => {
+                window.open('https://docs.google.com/document/d/1IYYtBWSws59omIU4rsLaTki_cDlC0BE839gpfmJeBrE/edit?usp=drivesdk', '_blank');
+              }}
+            >
               <ExternalLink className="mr-2 h-4 w-4" />
               View Resume
             </Button>
