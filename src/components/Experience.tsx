@@ -68,14 +68,6 @@ const Experience = () => {
           <div className="space-y-8">
             {experiences.map((exp, index) => (
               <Card key={index} className="shadow-elegant hover:shadow-glow transition-all duration-300 group relative overflow-hidden">
-                {exp.current && (
-                  <div className="absolute top-4 right-4">
-                    <Badge className="bg-gradient-primary text-primary-foreground border-0">
-                      Current
-                    </Badge>
-                  </div>
-                )}
-                
                 <CardContent className="p-8">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                     <div className="flex-1">

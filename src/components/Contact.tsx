@@ -86,7 +86,7 @@ const Contact = () => {
               <CardContent className="p-8 h-full flex flex-col justify-center">
                 <div className="text-center">
                   <h3 className="text-2xl font-semibold mb-4 group-hover:text-primary transition-colors">
-                    Ready to Collaborate?
+                    Get in touch?
                   </h3>
                   <p className="text-muted-foreground mb-8">
                     Whether you have a project in mind, want to discuss opportunities, 
