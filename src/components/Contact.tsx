@@ -89,8 +89,8 @@ const Contact = () => {
                     Get in touch?
                   </h3>
                   <p className="text-muted-foreground mb-8">
-                    Whether you have a project in mind, want to discuss opportunities, 
-                    or just want to connect, I'd love to hear from you.
+
+                    
                   </p>
                   
                   <div className="space-y-4">
