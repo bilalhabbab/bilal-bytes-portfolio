@@ -1,38 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bilal Habbab - Software Engineer & Computer Science Student</title>
-    <meta
-      name="description"
-      content="Bilal Habbab is a skilled software engineer and Computer Science student specializing in AI development, full-stack web development, and automation solutions. View his portfolio, projects, and experience."
-    />
-    <meta name="author" content="Bilal Habbab" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Bilal Habbab — Software Engineer" />
-    <meta
-      property="og:description"
-      content="AI + full-stack developer. Projects, experience, and contact."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://bilalhabbab.com/" />
-    <meta property="og:image" content="https://bilalhabbab.com/og.jpg" />
+  <title>Drop-to-Chat (RAG)</title>
+  <meta name="description" content="Drag-and-drop files and chat with them locally. Supports PDF, DOCX, TXT, and Markdown with source-cited answers." />
+  <link rel="canonical" href="https://bilalhabbab.com/" />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Bilal Habbab — Software Engineer" />
-    <meta
-      name="twitter:description"
-      content="AI + full-stack developer. Projects, experience, and contact."
-    />
-    <meta name="twitter:image" content="https://bilalhabbab.com/og.jpg" />
-    <script type="module" crossorigin src="/assets/index-CqnFxZaK.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B2HdKjcY.css">
-  </head>
+  <!-- Open Graph (no image on purpose) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bilalhabbab.com/" />
+  <meta property="og:title" content="Drop-to-Chat (RAG)" />
+  <meta property="og:description" content="Upload documents and ask questions. Local RAG demo with source citations." />
 
-  <body>
-    <div id="root"></div>
-  </body>
+  <!-- Twitter Card (no image on purpose) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Drop-to-Chat (RAG)" />
+  <meta name="twitter:description" content="Upload documents and ask questions. Local RAG demo with source citations." />
+
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>📎 Drop-to-Chat</h1>
+      <div class="actions">
+        <button id="resetBtn" title="Reset session">🗑️ Reset</button>
+      </div>
+    </header>
+
+    <section id="dropzone" class="dropzone">
+      <p>Drag & drop files here, or
+        <label class="fileLabel">
+          <input type="file" id="fileInput" multiple />
+          browse
+        </label>
+      </p>
+      <small>PDF, DOCX, TXT, MD supported.</small>
+      <div id="uploads"></div>
+    </section>
+
+    <section class="chat">
+      <div id="messages" class="messages"></div>
+      <form id="chatForm" class="composer">
+        <input id="message" type="text" placeholder="Ask something about your files..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <small>Local RAG demo • Answers cite sources like [1], [2] from your files.</small>
+    </footer>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
 </html>
