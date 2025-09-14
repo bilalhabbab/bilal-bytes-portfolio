@@ -22,11 +22,6 @@ const Hero = () => {
             Software Engineer & Computer Science Student
           </p>
           
-          <p className="text-base md:text-lg text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto">
-            Building innovative solutions with AI, full-stack development, and automation. 
-            Currently pursuing Computer Science at Toronto Metropolitan University.
-          </p>
-          
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button 
