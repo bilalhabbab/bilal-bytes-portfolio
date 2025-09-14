@@ -6,20 +6,6 @@ import { ExternalLink, Github, Code, Brain, Shield, GraduationCap } from "lucide
 const Projects = () => {
   const projects = [
     {
-      title: "EduTrack",
-      subtitle: "AI-Enhanced Educational Management Platform",
-      description: "Comprehensive educational system integrating Google Classroom with AI-powered analytics and role-based authentication",
-      achievements: [
-        "Developed comprehensive educational system integrating Google Classroom API with AI-powered analytics",
-        "Implemented role-based authentication supporting multi-tier permissions for students, teachers, and administrators",
-        "Built responsive dashboard with real-time course analytics achieving 95% data accuracy"
-      ],
-      technologies: ["TypeScript", "React", "Sphere Engine API", "OpenAI API", "Google Classroom API"],
-      icon: GraduationCap,
-      date: "October 2024",
-      featured: true
-    },
-    {
       title: "CodeSensai.study",
       subtitle: "Technical Interview Prep Tool",
       description: "Full-stack interview preparation platform with adaptive difficulty levels and real-time code execution",
@@ -45,6 +31,20 @@ const Projects = () => {
       technologies: ["React", "Node.js", "Firebase", "OpenAI API", "TypeScript"],
       icon: Shield,
       date: "July 2025",
+      featured: true
+    },
+    {
+      title: "EduTrack",
+      subtitle: "AI-Enhanced Educational Management Platform",
+      description: "Comprehensive educational system integrating Google Classroom with AI-powered analytics and role-based authentication",
+      achievements: [
+        "Developed comprehensive educational system integrating Google Classroom API with AI-powered analytics",
+        "Implemented role-based authentication supporting multi-tier permissions for students, teachers, and administrators",
+        "Built responsive dashboard with real-time course analytics achieving 95% data accuracy"
+      ],
+      technologies: ["TypeScript", "React", "Sphere Engine API", "OpenAI API", "Google Classroom API"],
+      icon: GraduationCap,
+      date: "October 2024",
       featured: true
     }
   ];
