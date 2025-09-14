@@ -129,6 +129,16 @@ const Projects = () => {
                         <Github className="mr-2 h-4 w-4" />
                         Source Code
                       </Button>
+                    ) : project.title === "EduTrack" ? (
+                      <Button 
+                        variant="outline" 
+                        size="sm" 
+                        className="hover:bg-primary/5 transition-all duration-300"
+                        onClick={() => window.open("https://github.com/Yazan10x/EduTrack", "_blank")}
+                      >
+                        <Github className="mr-2 h-4 w-4" />
+                        Source Code
+                      </Button>
                     ) : (
                       <>
                         <Button size="sm" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
