@@ -61,9 +61,6 @@ const Experience = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
               Work Experience
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Building impactful solutions across diverse industries and technologies
-            </p>
           </div>
 
           <div className="space-y-8">
