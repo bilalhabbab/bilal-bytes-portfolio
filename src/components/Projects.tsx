@@ -119,14 +119,28 @@ const Projects = () => {
 
                   {/* Action Buttons */}
                   <div className="flex gap-3 pt-4 border-t border-border">
-                    <Button size="sm" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Live Demo
-                    </Button>
-                    <Button variant="outline" size="sm" className="hover:bg-primary/5 transition-all duration-300">
-                      <Github className="mr-2 h-4 w-4" />
-                      Source Code
-                    </Button>
+                    {project.title === "SmartWorkRooms" ? (
+                      <Button 
+                        variant="outline" 
+                        size="sm" 
+                        className="hover:bg-primary/5 transition-all duration-300"
+                        onClick={() => window.open("https://github.com/bilalhabbab/Smartworkrooms", "_blank")}
+                      >
+                        <Github className="mr-2 h-4 w-4" />
+                        Source Code
+                      </Button>
+                    ) : (
+                      <>
+                        <Button size="sm" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
+                          <ExternalLink className="mr-2 h-4 w-4" />
+                          Live Demo
+                        </Button>
+                        <Button variant="outline" size="sm" className="hover:bg-primary/5 transition-all duration-300">
+                          <Github className="mr-2 h-4 w-4" />
+                          Source Code
+                        </Button>
+                      </>
+                    )}
                   </div>
 
                   <div className="mt-4 text-xs text-muted-foreground">
