@@ -146,7 +146,12 @@ const Projects = () => {
                           <ExternalLink className="mr-2 h-4 w-4" />
                           Live Demo
                         </Button>
-                        <Button variant="outline" size="sm" className="hover:bg-primary/5 transition-all duration-300">
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="hover:bg-primary/5 transition-all duration-300"
+                          onClick={() => window.open("https://github.com/bilalhabbab/codesensai", "_blank")}
+                        >
                           <Github className="mr-2 h-4 w-4" />
                           Source Code
                         </Button>
