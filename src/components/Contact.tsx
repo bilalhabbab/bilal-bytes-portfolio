@@ -38,10 +38,6 @@ const Contact = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
               Get In Touch
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              I'm always interested in new opportunities and exciting projects. 
-              Let's connect and discuss how we can work together!
-            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
