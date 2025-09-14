@@ -34,7 +34,7 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "VaultBot",
+      title: "SmartWorkRooms",
       subtitle: "Role-Based AI Assistant for Enterprises",
       description: "Secure enterprise chatbot with document management and role-based access control",
       achievements: [
