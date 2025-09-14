@@ -6,11 +6,11 @@ const Experience = () => {
   const experiences = [
     {
       company: "WSAudiology",
-      position: "Software & Automation Engineer",
+      position: "Software Engineer Intern",
       location: "Burlington, ON",
       period: "June 2025 – Present",
       achievements: [
-        "Developed an AI-powered chatbot adopted by 50+ HQ staff, reducing troubleshooting time by 75%",
+        "Developed an AI-powered chatbot using OpenAI API adopted by 50+ HQ staff, reducing troubleshooting time by 75%",
         "Automated workflows, eliminating 100+ monthly email inquiries and improving retrieval speed by 80%",
         "Tested chatbot updates and gathered feedback from 30+ staff, improving response accuracy by 20%"
       ],
