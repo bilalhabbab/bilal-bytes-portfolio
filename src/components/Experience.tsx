@@ -17,15 +17,16 @@ const Experience = () => {
       current: true
     },
     {
-      company: "Rogers/Fido (HGS Canada)",
-      position: "Technical Support Specialist (Bilingual)",
+      company: "Rogers",
+      position: "Technical Support Specialist",
       location: "Remote",
-      period: "January 2025 – Present",
+      period: "January 2025 – May 2025",
       achievements: [
         "Delivered technical support for software/hardware malfunctions for devices, averaging 50+ calls per day",
-        "Troubleshooted iOS and Android devices using strong expertise, achieving 95% satisfaction rate"
+        "Troubleshooted iOS and Android devices using strong expertise, achieving 95% satisfaction rate",
+        "Acted as liaison between Rogers retail stores and technical teams, assisting 200+ locations with escalations and system issues"
       ],
-      current: true
+      current: false
     },
     {
       company: "Bassem Labs",
