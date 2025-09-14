@@ -16,7 +16,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="max-w-2xl mx-auto">
             {/* Education Card */}
             <Card className="shadow-elegant hover:shadow-glow transition-all duration-300 group">
               <CardContent className="p-8">
@@ -58,57 +58,6 @@ const About = () => {
                         {course}
                       </span>
                     ))}
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Achievements Card */}
-            <Card className="shadow-elegant hover:shadow-glow transition-all duration-300 group">
-              <CardContent className="p-8">
-                <h3 className="text-xl font-semibold mb-6 group-hover:text-primary transition-colors">
-                  Key Achievements
-                </h3>
-                
-                <div className="space-y-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <div>
-                      <p className="font-medium">AI Chatbot Impact</p>
-                      <p className="text-sm text-muted-foreground">
-                        Developed chatbot adopted by 50+ staff, reducing troubleshooting time by 75%
-                      </p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <div>
-                      <p className="font-medium">LMS Platform Leadership</p>
-                      <p className="text-sm text-muted-foreground">
-                        Led development for 700+ users across 3 schools with 90%+ adoption
-                      </p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <div>
-                      <p className="font-medium">Community Impact</p>
-                      <p className="text-sm text-muted-foreground">
-                        Increased workshop attendance by 167% through effective leadership
-                      </p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <div>
-                      <p className="font-medium">Technical Excellence</p>
-                      <p className="text-sm text-muted-foreground">
-                        95% customer satisfaction in technical support role
-                      </p>
-                    </div>
                   </div>
                 </div>
               </CardContent>
