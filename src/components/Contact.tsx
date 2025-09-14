@@ -128,6 +128,18 @@ const Contact = () => {
                     onClick={() => window.open('https://docs.google.com/document/d/1IYYtBWSws59omIU4rsLaTki_cDlC0BE839gpfmJeBrE/edit?usp=drivesdk', '_blank')}
                   >
                     <ExternalLink className="mr-2 h-4 w-4" />
+                    View Resume
+                  </Button>
+                  <Button 
+                    className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
+                    onClick={() => {
+                      const link = document.createElement('a');
+                      link.href = 'https://docs.google.com/document/d/1IYYtBWSws59omIU4rsLaTki_cDlC0BE839gpfmJeBrE/export?format=pdf';
+                      link.download = 'Bilal_Habbab_Resume.pdf';
+                      link.click();
+                    }}
+                  >
+                    <ExternalLink className="mr-2 h-4 w-4" />
                     Download Resume
                   </Button>
                 </div>
