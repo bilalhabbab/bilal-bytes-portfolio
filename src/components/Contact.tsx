@@ -118,12 +118,9 @@ const Contact = () => {
           <div className="mt-16 text-center">
             <Card className="shadow-elegant hover:shadow-glow transition-all duration-300 group">
               <CardContent className="p-8">
-                <h3 className="text-xl font-semibold mb-4 group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-semibold mb-6 group-hover:text-primary transition-colors">
                   Portfolio & Resume
                 </h3>
-                <p className="text-muted-foreground mb-6">
-                  Want to learn more about my background and projects?
-                </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button 
                     variant="outline" 
@@ -131,7 +128,7 @@ const Contact = () => {
                     onClick={() => window.open('https://docs.google.com/document/d/1IYYtBWSws59omIU4rsLaTki_cDlC0BE839gpfmJeBrE/edit?usp=drivesdk', '_blank')}
                   >
                     <ExternalLink className="mr-2 h-4 w-4" />
-                    View Resume
+                    Download Resume
                   </Button>
                 </div>
               </CardContent>
