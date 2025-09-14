@@ -10,10 +10,6 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
               About Me
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Passionate software engineer with a strong foundation in computer science and hands-on experience 
-              building innovative solutions that make a real impact.
-            </p>
           </div>
 
           <div className="max-w-2xl mx-auto">
