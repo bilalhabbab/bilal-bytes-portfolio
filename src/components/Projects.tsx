@@ -138,7 +138,11 @@ const Projects = () => {
                       </Button>
                     ) : (
                       <>
-                        <Button size="sm" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
+                        <Button 
+                          size="sm" 
+                          className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
+                          onClick={() => window.open("https://codesensai.study", "_blank")}
+                        >
                           <ExternalLink className="mr-2 h-4 w-4" />
                           Live Demo
                         </Button>
