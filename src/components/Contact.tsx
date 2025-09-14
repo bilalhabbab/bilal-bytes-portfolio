@@ -132,14 +132,6 @@ const Contact = () => {
                   <Button 
                     variant="outline" 
                     className="hover:bg-primary/5 transition-all duration-300"
-                    onClick={() => window.open('https://www.bilalhabbab.com', '_blank')}
-                  >
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Visit My Website
-                  </Button>
-                  <Button 
-                    variant="outline" 
-                    className="hover:bg-primary/5 transition-all duration-300"
                     onClick={() => window.open('https://docs.google.com/document/d/1IYYtBWSws59omIU4rsLaTki_cDlC0BE839gpfmJeBrE/edit?usp=drivesdk', '_blank')}
                   >
                     <ExternalLink className="mr-2 h-4 w-4" />

@@ -64,36 +64,6 @@ const Skills = () => {
             ))}
           </div>
 
-          {/* Additional Skills Highlight */}
-          <div className="mt-16 text-center">
-            <Card className="shadow-elegant hover:shadow-glow transition-all duration-300 group">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold mb-6 group-hover:text-primary transition-colors">
-                  Specialized Expertise
-                </h3>
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">AI/ML</div>
-                    <p className="text-muted-foreground">
-                      OpenAI API Integration, Chatbot Development, Fine-tuning
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">Full-Stack</div>
-                    <p className="text-muted-foreground">
-                      React, Node.js, TypeScript, Database Design
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-2">DevOps</div>
-                    <p className="text-muted-foreground">
-                      Automation, CI/CD, Cloud Platforms, API Development
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
